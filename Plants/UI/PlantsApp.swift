@@ -1,5 +1,5 @@
 //
-//  plantsApp.swift
+//  PlantsApp.swift
 //  plants
 //
 //  Created by Thibault Gauche on 09/06/2023.
@@ -9,12 +9,12 @@ import SwiftUI
 import SwiftData
 
 @main
-struct plantsApp: App {
+struct PlantsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlantList()
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: Plant.self)
     }
 }
