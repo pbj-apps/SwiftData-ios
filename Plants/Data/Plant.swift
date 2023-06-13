@@ -11,7 +11,7 @@ import SwiftUI
 
 @Model
 final class Plant {
-	var name: String
+	@Attribute(.unique) var name: String
 	var details: String
 	var iconName: String
 

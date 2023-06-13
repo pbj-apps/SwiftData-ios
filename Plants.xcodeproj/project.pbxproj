@@ -12,29 +12,9 @@
 		210AB0872A3324A2004CAA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AB0862A3324A2004CAA0C /* Assets.xcassets */; };
 		210AB08A2A3324A2004CAA0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AB0892A3324A2004CAA0C /* Preview Assets.xcassets */; };
 		210AB08C2A3324A2004CAA0C /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AB08B2A3324A2004CAA0C /* Plant.swift */; };
-		210AB0982A3324A2004CAA0C /* plantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AB0972A3324A2004CAA0C /* plantsTests.swift */; };
-		210AB0A22A3324A2004CAA0C /* plantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AB0A12A3324A2004CAA0C /* plantsUITests.swift */; };
-		210AB0A42A3324A2004CAA0C /* plantsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AB0A32A3324A2004CAA0C /* plantsUITestsLaunchTests.swift */; };
 		210AB0B12A333125004CAA0C /* SamplePlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AB0B02A333125004CAA0C /* SamplePlants.swift */; };
 		2187CC892A37270E003D3494 /* PlantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187CC882A37270E003D3494 /* PlantDetails.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		210AB0942A3324A2004CAA0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 210AB0772A3324A1004CAA0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 210AB07E2A3324A1004CAA0C;
-			remoteInfo = plants;
-		};
-		210AB09E2A3324A2004CAA0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 210AB0772A3324A1004CAA0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 210AB07E2A3324A1004CAA0C;
-			remoteInfo = plants;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		210AB07F2A3324A1004CAA0C /* Plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plants.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,31 +25,12 @@
 		210AB08B2A3324A2004CAA0C /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		210AB08D2A3324A2004CAA0C /* plants.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = plants.entitlements; sourceTree = "<group>"; };
 		210AB08E2A3324A2004CAA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		210AB0932A3324A2004CAA0C /* PlantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		210AB0972A3324A2004CAA0C /* plantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantsTests.swift; sourceTree = "<group>"; };
-		210AB09D2A3324A2004CAA0C /* PlantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		210AB0A12A3324A2004CAA0C /* plantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantsUITests.swift; sourceTree = "<group>"; };
-		210AB0A32A3324A2004CAA0C /* plantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		210AB0B02A333125004CAA0C /* SamplePlants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePlants.swift; sourceTree = "<group>"; };
 		2187CC882A37270E003D3494 /* PlantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		210AB07C2A3324A1004CAA0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		210AB0902A3324A2004CAA0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		210AB09A2A3324A2004CAA0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				210AB0812A3324A1004CAA0C /* Plants */,
-				210AB0962A3324A2004CAA0C /* PlantsTests */,
-				210AB0A02A3324A2004CAA0C /* PlantsUITests */,
 				210AB0802A3324A1004CAA0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				210AB07F2A3324A1004CAA0C /* Plants.app */,
-				210AB0932A3324A2004CAA0C /* PlantsTests.xctest */,
-				210AB09D2A3324A2004CAA0C /* PlantsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,23 +72,6 @@
 				210AB0892A3324A2004CAA0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		210AB0962A3324A2004CAA0C /* PlantsTests */ = {
-			isa = PBXGroup;
-			children = (
-				210AB0972A3324A2004CAA0C /* plantsTests.swift */,
-			);
-			path = PlantsTests;
-			sourceTree = "<group>";
-		};
-		210AB0A02A3324A2004CAA0C /* PlantsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				210AB0A12A3324A2004CAA0C /* plantsUITests.swift */,
-				210AB0A32A3324A2004CAA0C /* plantsUITestsLaunchTests.swift */,
-			);
-			path = PlantsUITests;
 			sourceTree = "<group>";
 		};
 		2187CC852A371D5E003D3494 /* UI */ = {
@@ -184,42 +124,6 @@
 			productReference = 210AB07F2A3324A1004CAA0C /* Plants.app */;
 			productType = "com.apple.product-type.application";
 		};
-		210AB0922A3324A2004CAA0C /* PlantsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 210AB0AA2A3324A2004CAA0C /* Build configuration list for PBXNativeTarget "PlantsTests" */;
-			buildPhases = (
-				210AB08F2A3324A2004CAA0C /* Sources */,
-				210AB0902A3324A2004CAA0C /* Frameworks */,
-				210AB0912A3324A2004CAA0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				210AB0952A3324A2004CAA0C /* PBXTargetDependency */,
-			);
-			name = PlantsTests;
-			productName = plantsTests;
-			productReference = 210AB0932A3324A2004CAA0C /* PlantsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		210AB09C2A3324A2004CAA0C /* PlantsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 210AB0AD2A3324A2004CAA0C /* Build configuration list for PBXNativeTarget "PlantsUITests" */;
-			buildPhases = (
-				210AB0992A3324A2004CAA0C /* Sources */,
-				210AB09A2A3324A2004CAA0C /* Frameworks */,
-				210AB09B2A3324A2004CAA0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				210AB09F2A3324A2004CAA0C /* PBXTargetDependency */,
-			);
-			name = PlantsUITests;
-			productName = plantsUITests;
-			productReference = 210AB09D2A3324A2004CAA0C /* PlantsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,14 +136,6 @@
 				TargetAttributes = {
 					210AB07E2A3324A1004CAA0C = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					210AB0922A3324A2004CAA0C = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 210AB07E2A3324A1004CAA0C;
-					};
-					210AB09C2A3324A2004CAA0C = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 210AB07E2A3324A1004CAA0C;
 					};
 				};
 			};
@@ -257,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				210AB07E2A3324A1004CAA0C /* Plants */,
-				210AB0922A3324A2004CAA0C /* PlantsTests */,
-				210AB09C2A3324A2004CAA0C /* PlantsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,20 +164,6 @@
 			files = (
 				210AB08A2A3324A2004CAA0C /* Preview Assets.xcassets in Resources */,
 				210AB0872A3324A2004CAA0C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		210AB0912A3324A2004CAA0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		210AB09B2A3324A2004CAA0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,37 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		210AB08F2A3324A2004CAA0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				210AB0982A3324A2004CAA0C /* plantsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		210AB0992A3324A2004CAA0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				210AB0A42A3324A2004CAA0C /* plantsUITestsLaunchTests.swift in Sources */,
-				210AB0A22A3324A2004CAA0C /* plantsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		210AB0952A3324A2004CAA0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 210AB07E2A3324A1004CAA0C /* Plants */;
-			targetProxy = 210AB0942A3324A2004CAA0C /* PBXContainerItemProxy */;
-		};
-		210AB09F2A3324A2004CAA0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 210AB07E2A3324A1004CAA0C /* Plants */;
-			targetProxy = 210AB09E2A3324A2004CAA0C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		210AB0A52A3324A2004CAA0C /* Debug */ = {
@@ -518,78 +368,6 @@
 			};
 			name = Release;
 		};
-		210AB0AB2A3324A2004CAA0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.plantsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plants.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plants";
-			};
-			name = Debug;
-		};
-		210AB0AC2A3324A2004CAA0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.plantsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plants.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plants";
-			};
-			name = Release;
-		};
-		210AB0AE2A3324A2004CAA0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.plantsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = plants;
-			};
-			name = Debug;
-		};
-		210AB0AF2A3324A2004CAA0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.plantsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = plants;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,24 +385,6 @@
 			buildConfigurations = (
 				210AB0A82A3324A2004CAA0C /* Debug */,
 				210AB0A92A3324A2004CAA0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		210AB0AA2A3324A2004CAA0C /* Build configuration list for PBXNativeTarget "PlantsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				210AB0AB2A3324A2004CAA0C /* Debug */,
-				210AB0AC2A3324A2004CAA0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		210AB0AD2A3324A2004CAA0C /* Build configuration list for PBXNativeTarget "PlantsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				210AB0AE2A3324A2004CAA0C /* Debug */,
-				210AB0AF2A3324A2004CAA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

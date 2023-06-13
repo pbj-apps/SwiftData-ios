@@ -21,11 +21,11 @@ struct PlantDetails: View {
 				.padding(.vertical, 10)
 			Text(plant.details)
 				.font(.body)
+				.foregroundStyle(Color.accentColor)
 			Spacer()
 		}
 		.padding()
-		.background(Color.background.opacity(0.6))
-
+		.background(Color.background)
 	}
 }
 
